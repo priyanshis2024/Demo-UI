@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cloud Deploy Dashboard</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="logo">☁️ CloudDeploy</div>
+      <nav>
+        <a href="#features">Features</a>
+        <a href="#pipeline">Pipeline</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <section class="hero">
+      <div class="hero-text">
+        <h1>Seamless CI/CD on AWS</h1>
+        <p>
+          Automate your builds, deployments, and releases with a single click.
+        </p>
+        <button id="deployBtn">🚀 Deploy Now</button>
+      </div>
+    </section>
+
+    <section id="features" class="features">
+      <h2>Features</h2>
+      <div class="cards">
+        <div class="card">
+          <h3>⚙️ CodePipeline</h3>
+          <p>Connect GitHub to AWS for automated builds and deployments.</p>
+        </div>
+        <div class="card">
+          <h3>🐳 CodeBuild</h3>
+          <p>Build and package your app into Docker images ready for release.</p>
+        </div>
+        <div class="card">
+          <h3>🛰️ CodeDeploy</h3>
+          <p>Deploy safely with blue/green rollouts and instant rollback.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="pipeline" class="pipeline">
+      <h2>Your Deployment Pipeline</h2>
+      <div class="steps">
+        <div class="step">1️⃣ Push to GitHub</div>
+        <div class="step">2️⃣ Build Docker Image</div>
+        <div class="step">3️⃣ Deploy to ECS</div>
+        <div class="step">4️⃣ Release Tag Created 🎉</div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact">
+      <h2>Contact Us</h2>
+      <form id="contactForm">
+        <input type="text" placeholder="Your name" required />
+        <input type="email" placeholder="Your email" required />
+        <textarea placeholder="Your message..." required></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+    </section>
+
+    <footer>
+      <p>© 2025 CloudDeploy. Built with ❤️ for DevOps.</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
